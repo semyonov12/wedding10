@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Мария и Дмитрий</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- стили -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<main>
+			<audio class="audio" src="files/Music.mp3"></audio>
+			<section class="hero">
+				<div class="hero__container">
+					<button type="button" class="hero__button">
+						<svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M9.40909 3.66533L5.85768 6.44533H2.09091V10.4453H5.85768L9.40909 13.2253V3.66533ZM5.11123 12.4453H1.04545C0.768183 12.4453 0.502267 12.34 0.306206 12.1524C0.110146 11.9649 0 11.7105 0 11.4453V5.44533C0 5.18012 0.110146 4.92576 0.306206 4.73823C0.502267 4.55069 0.768183 4.44533 1.04545 4.44533H5.11123L10.6459 0.113334C10.7224 0.053281 10.8153 0.0152703 10.9136 0.00372706C11.0119 -0.00781622 11.1115 0.00758276 11.201 0.0481313C11.2905 0.0886799 11.3661 0.15271 11.4191 0.232766C11.472 0.312823 11.5001 0.405613 11.5 0.500334V16.3903C11.5001 16.4851 11.472 16.5778 11.4191 16.6579C11.3661 16.738 11.2905 16.802 11.201 16.8425C11.1115 16.8831 11.0119 16.8985 10.9136 16.8869C10.8153 16.8754 10.7224 16.8374 10.6459 16.7773L5.11227 12.4453H5.11123ZM19.2426 16.5793L17.7623 15.1633C18.7533 14.3199 19.5462 13.285 20.0886 12.127C20.631 10.969 20.9107 9.71423 20.9091 8.44533C20.9104 7.11142 20.6011 5.79399 20.0036 4.58871C19.4061 3.38343 18.5355 2.32057 17.4549 1.47733L18.9394 0.0573338C20.2133 1.08888 21.2366 2.37382 21.9379 3.82253C22.6392 5.27124 23.0016 6.84885 23 8.44533C23 11.6683 21.551 14.5673 19.2426 16.5793ZM15.5386 13.0363L14.052 11.6143C14.5595 11.241 14.9705 10.7611 15.2531 10.2116C15.5357 9.66206 15.6824 9.05774 15.6818 8.44533C15.6818 7.01533 14.8977 5.76033 13.7164 5.05333L15.2208 3.61433C16.0127 4.17152 16.6563 4.89918 17.0996 5.73845C17.543 6.57772 17.7736 7.50502 17.7727 8.44533C17.7727 10.2873 16.905 11.9353 15.5386 13.0363Z" fill="#09121F" />
+						</svg>
+						<svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M9.01961 3.66533L5.61521 6.44533H2.00436V10.4453H5.61521L9.01961 13.2253V3.66533ZM4.89965 12.4453H1.00218C0.736384 12.4453 0.481476 12.34 0.293531 12.1524C0.105586 11.9649 0 11.7105 0 11.4453V5.44533C0 5.18012 0.105586 4.92576 0.293531 4.73823C0.481476 4.55069 0.736384 4.44533 1.00218 4.44533H4.89965L10.2052 0.113334C10.2786 0.053281 10.3676 0.0152703 10.4618 0.00372706C10.556 -0.00781622 10.6516 0.00758276 10.7374 0.0481313C10.8232 0.0886799 10.8957 0.15271 10.9464 0.232766C10.9971 0.312823 11.024 0.405613 11.024 0.500334V16.3903C11.024 16.4851 10.9971 16.5778 10.9464 16.6579C10.8957 16.738 10.8232 16.802 10.7374 16.8425C10.6516 16.8831 10.556 16.8985 10.4618 16.8869C10.3676 16.8754 10.2786 16.8374 10.2052 16.7773L4.90065 12.4453H4.89965ZM19.4563 8.44533L23 11.9813L21.5829 13.3953L18.0392 9.85933L14.4955 13.3953L13.0784 11.9813L16.6221 8.44533L13.0784 4.90933L14.4955 3.49533L18.0392 7.03133L21.5829 3.49533L23 4.90933L19.4563 8.44533Z" fill="#09121F" />
+						</svg>
+					</button>
+					<div class="hero__content">
+						<h1 class="hero__title">Мария & Дмитрий</h1>
+						<div class="hero__row">
+							<div class="hero__date">4 октября</div>
+							<div class="hero__year">2025</div>
+						</div>
+					</div>
+				</div>
+				<div class="hero__image">
+					<picture>
+						<source srcset="img/hero-mobile.webp" media="(max-width: 480px)">
+						<img src="img/hero-image.webp" alt="Мария и Дмитрий">
+					</picture>
+					<!-- <video src="files/Video.mp4" loop autoplay muted playsinline></video> -->
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<h2 class="about__title title">Дорогие друзья и родные</h2>
+					<div class="about__text text">Мы с радостью приглашаем вас разделить этот незабываемый день <br> с
+						нами! Ваше присутствие сделает наше торжество еще более особенным</div>
+				</div>
+			</section>
+			<section class="storty">
+				<div class="storty__container">
+					<div class="storty__content">
+						<h2 class="storty__title title">История нашей любви</h2>
+						<div class="storty__image">
+							<img src="img/storty-image.webp" alt="Мария и Дмитрий">
+							<div class="storty__decor">
+								<img src="img/story-mask.webp" alt="фон">
+							</div>
+						</div>
+					</div>
+					<div class="storty__text text">
+						<p>Наша история началась пять лет назад, когда мы встретились <br> на вечеринке у общих друзей.
+							С тех пор мы прошли вместе через множество приключений и счастливых моментов. Наши отношения
+							развивались и крепли с каждым днём.</p>
+						<p>Мы вместе путешествовали, поддерживали друг друга в трудные времена и радовались общим
+							победам.</p>
+						<p>С каждым годом наша любовь становилась всё сильнее, и теперь <br> мы готовы сделать следующий
+							шаг.</p>
+					</div>
+				</div>
+			</section>
+			<section class="date">
+				<div class="date__container">
+					<h2 class="date__title">Дата свадьбы</h2>
+					<div class="date__body">
+						<div class="date__column">
+							<span>04</span>
+							<img src="img/background-black.webp" alt="фон">
+						</div>
+						<div class="date__column">
+							<span>октября</span>
+							<img src="img/background-white.webp" alt="фон">
+						</div>
+						<div class="date__column">
+							<span>2026</span>
+							<img src="img/background-white.webp" alt="фон">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="place">
+				<div class="place__container">
+					<div class="place__column">
+						<h2 class="place__title title">Место проведения</h2>
+						<div class="place__wrap place__wrap_mobile">
+							<div class="place__text">Ждём вас по адресу</div>
+							<div class="place__address">Нижний Новгород, Проспект Гагарина, 232д</div>
+						</div>
+						<div class="place__image">
+							<img src="img/place-image.webp" alt="Место проведения свадьбы">
+							<div class="place__decor">
+								<img src="img/map-mask.webp" alt="фон">
+							</div>
+						</div>
+					</div>
+					<div class="place__content">
+						<div class="place__wrap place__wrap_pc">
+							<div class="place__text">Ждём вас по адресу</div>
+							<div class="place__address">Нижний Новгород, Проспект Гагарина, 232д</div>
+						</div>
+						<div class="place__map">
+							<div class="place__decor">
+								<img src="img/map-mask.webp" alt="фон">
+							</div>
+							<iframe loading="lazy" src="https://yandex.ru/map-widget/v1/?z=11&l=map,trf&pt=44.00129622222906,56.237785650000006&scroll=false"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="program">
+				<div class="program__container">
+					<h2 class="program__title title">Программа праздничного дня</h2>
+					<div class="program__body">
+						<div class="program__item">
+							<div class="program__time"><span>14:00</span></div>
+							<div class="program__text">Сбор гостей, фуршет</div>
+						</div>
+						<div class="program__item">
+							<div class="program__time"><span>16:00</span></div>
+							<div class="program__text">Начало банкета</div>
+						</div>
+						<div class="program__item">
+							<div class="program__time"><span>17:00</span></div>
+							<div class="program__text">Первый танец молодоженов</div>
+						</div>
+						<div class="program__item">
+							<div class="program__time"><span>18:00</span></div>
+							<div class="program__text">Свадебный торт</div>
+						</div>
+						<div class="program__item">
+							<div class="program__time"><span>19:00</span></div>
+							<div class="program__text">Фаер-шоу</div>
+						</div>
+						<div class="program__item">
+							<div class="program__time"><span>20:00</span></div>
+							<div class="program__text">Окончание вечера</div>
+						</div>
+						<div class="program__item">
+							<div class="program__time"><span>22:00</span></div>
+							<div class="program__text">Фейерверк</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section class="dress-code">
+				<div class="dress-code__container">
+					<h2 class="dress-code__title title">наш дресс-код</h2>
+					<div class="dress-code__body">
+						<div class="dress-code__image">
+							<img src="img/color1.webp" alt="Нюдовый цвет">
+						</div>
+						<div class="dress-code__image">
+							<img src="img/color2.webp" alt="Нюдовый цвет">
+						</div>
+						<div class="dress-code__text text">Нюдовые цвета</div>
+						<div class="dress-code__image">
+							<img src="img/color3.webp" alt="Нюдовый цвет">
+						</div>
+						<div class="dress-code__image">
+							<img src="img/color4.webp" alt="Нюдовый цвет">
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="wrap">
+				<section class="timer">
+					<div class="timer__container">
+						<div class="timer__body">
+							<div class="timer__item">
+								<div class="timer__value">121</div>
+								<div class="timer__label text">День</div>
+							</div>
+							<h2 class="timer__title title">До свадьбы осталось</h2>
+							<div class="timer__item">
+								<div class="timer__value">720</div>
+								<div class="timer__label text">Минут</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="timer">
+					<div class="timer__container">
+						<div class="timer__body timer__body_grid">
+							<div class="timer__item">
+								<div class="timer__value">121</div>
+								<div class="timer__label text">День</div>
+							</div>
+							<div class="timer__item">
+								<div class="timer__value">12</div>
+								<div class="timer__label text">Часов</div>
+							</div>
+							<div class="timer__item">
+								<div class="timer__value">56</div>
+								<div class="timer__label text">Минут</div>
+							</div>
+							<div class="timer__item">
+								<div class="timer__value">32</div>
+								<div class="timer__label text">Секунды</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="questions">
+					<form id="form" action="#" class="questions__container">
+						<h2 class="questions__title title">Вопросы для гостей</h2>
+						<div class="questions__body">
+							<div class="questions__item">
+								<label for="name" class="questions__label">Ваше имя и фамилия</label>
+								<div class="questions__wrap">
+									<input required id="name" type="text" class="questions__input" placeholder="Ваше имя и фамилия">
+									<div class="questions__required">
+										*
+									</div>
+								</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__label">Выбор алкоголя:</div>
+								<div class="questions__box">
+									<div class="checkbox">
+										<input id="c_1" class="checkbox__input" type="checkbox" value="1">
+										<label for="c_1" class="checkbox__label"><span class="checkbox__text">Шампанское</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_2" class="checkbox__input" type="checkbox" value="2">
+										<label for="c_2" class="checkbox__label"><span class="checkbox__text">Красное
+												сухое
+												вино</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_3" class="checkbox__input" type="checkbox" value="3">
+										<label for="c_3" class="checkbox__label"><span class="checkbox__text">Красное
+												полусладкое вино</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_4" class="checkbox__input" type="checkbox" value="4">
+										<label for="c_4" class="checkbox__label"><span class="checkbox__text">Белое
+												полусладкое вино</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_5" class="checkbox__input" type="checkbox" value="5">
+										<label for="c_5" class="checkbox__label"><span class="checkbox__text">Белое
+												сухое
+												вино</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_6" class="checkbox__input" type="checkbox" value="6">
+										<label for="c_6" class="checkbox__label"><span class="checkbox__text">Виски</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_7" class="checkbox__input" type="checkbox" value="7">
+										<label for="c_7" class="checkbox__label"><span class="checkbox__text">Коньяк</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_8" class="checkbox__input" type="checkbox" value="8">
+										<label for="c_8" class="checkbox__label"><span class="checkbox__text">Водка</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_9" class="checkbox__input" type="checkbox" value="9">
+										<label for="c_9" class="checkbox__label"><span class="checkbox__text">Ром</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_10" class="checkbox__input" type="checkbox" value="10">
+										<label for="c_10" class="checkbox__label"><span class="checkbox__text">Джин</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_11" class="checkbox__input" type="checkbox" value="11">
+										<label for="c_11" class="checkbox__label"><span class="checkbox__text">Безалкогольные
+												напитки</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__label">Присутствие *</div>
+								<div class="options">
+									<div class="options__item">
+										<input hidden id="o_1" class="options__input" checked type="radio" value="yes" name="option">
+										<label for="o_1" class="options__label"><span class="options__text">Я с
+												удовольствием приду</span></label>
+									</div>
+									<div class="options__item">
+										<input hidden id="o_2" class="options__input" type="radio" value="no" name="option">
+										<label for="o_2" class="options__label"><span class="options__text">К
+												сожалению,
+												не смогу присутствовать</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__label">Предпочтения в горячих блюдах</div>
+								<div class="options">
+									<div class="options__item">
+										<input hidden id="o_3" class="options__input" type="radio" value="1" name="option2">
+										<label for="o_3" class="options__label"><span class="options__text">Рыба</span></label>
+									</div>
+									<div class="options__item">
+										<input hidden id="o_4" class="options__input" checked type="radio" value="2" name="option2">
+										<label for="o_4" class="options__label"><span class="options__text">Мясо</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="questions__item">
+								<label for="artists" class="questions__label">Музыкальные композиции, которые
+									хотели бы
+									услышать на празднике</label>
+								<div class="questions__wrap">
+									<input id="artists" type="text" class="questions__input" placeholder="Выши любимые исполнители">
+								</div>
+							</div>
+							<button type="submit" class="questions__submit">Отправить</button>
+						</div>
+					</form>
+				</section>
+				<div class="wrap__background">
+					<img src="img/background.webp" alt="фон">
+				</div>
+			</div>
+			<section class="block-info">
+				<div class="block-info__container">
+					<div class="block-info__top">
+						<h2 class="block-info__title title">Наши тёплые пожелания</h2>
+						<div class="block-info__text text">Дорогие гости! Мы очень ждем встречи с вами в
+							этот особенный день и хотим, чтобы он стал уютным и запоминающимся
+							для всех.</div>
+						<div class="block-info__image">
+							<img src="img/icon.svg" alt="Иконка сердечко">
+						</div>
+					</div>
+					<div class="block-info__bottom">
+						<div class="block-info__heading">Спасибо за понимание и поддержку! Ваше присутствие — лучший
+							подарок для нас</div>
+						<div class="block-info__box">
+							<div class="block-info__icon">
+								<img src="img/icon2.svg" alt="Иконка сердечко">
+							</div>
+							<div class="block-info__desc">
+								Мы знаем, как сильно эмоции переполняют в этот день, но просим воздержаться от криков
+								«горько», ведь поцелуй — это искренний знак чувств, он не бывает по заказу. Если кто-то
+								не сдержится, будьте готовы пополнить наш семейный бюджет штрафом в размере 1000 рублей.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contacts">
+				<div class="contacts__container">
+					<div class="contacts__content">
+						<div class="contacts__top">
+							<h2 class="contacts__title title">Если у вас остались вопросы</h2>
+							<div class="contacts__sub-title text">Пишите, звоните, спрашивайте — мы всегда на связи!
+							</div>
+						</div>
+						<div class="contacts__block contacts__block_pc">
+							<div class="contacts__inner">
+								<div class="contacts__heading">Наша <br> общая группа</div>
+								<div class="contacts__text text">Чтобы мы могли остаться на связи, делиться радостью,
+									фотографиями и просто болтать — мы создали чат</div>
+								<a href="" class="contacts__button">Вступить в группу</a>
+							</div>
+							<div class="contacts__decor">
+								<img src="img/block-mask.webp" alt="фон">
+							</div>
+						</div>
+					</div>
+					<div class="contacts__items">
+						<div class="contacts__item">
+							<div class="contacts__image">
+								<img src="img/contacts-image1.webp" alt="Невеста">
+							</div>
+							<div class="contacts__box">
+								<div class="contacts__caption">Невеста</div>
+								<div class="contacts__links">
+									<a href="tel:+79999999999" class="contacts__link text">+7 999 999-99-99</a>
+									<a href="mailto:pochta@gmail.com" class="contacts__link text">pochta@gmail.com</a>
+								</div>
+								<div class="contacts__social">
+									<a href="#" class="contacts__item-social">
+										<svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.3749 6.99559C6.74359 4.70235 10.3236 3.19051 12.1148 2.46006C17.2292 0.374492 18.2919 0.0122064 18.9846 0.000115977C19.1369 -0.00238758 19.4776 0.0346283 19.6982 0.210162C19.8845 0.358379 19.9358 0.558599 19.9603 0.699125C19.9848 0.839652 20.0154 1.15977 19.9911 1.40991C19.714 4.2649 18.5147 11.1932 17.9046 14.3908C17.6465 15.7439 17.1382 16.1976 16.6461 16.2419C15.5766 16.3384 14.7645 15.549 13.7287 14.8833C12.1078 13.8416 11.1921 13.1932 9.61879 12.1767C7.80053 11.002 8.97923 10.3563 10.0154 9.30114C10.2866 9.02499 14.9987 4.82295 15.0899 4.44176C15.1013 4.39409 15.1119 4.21638 15.0042 4.12255C14.8965 4.02871 14.7376 4.0608 14.6229 4.08632C14.4604 4.12249 11.871 5.80043 6.85486 9.12014C6.11988 9.61494 5.45416 9.85603 4.8577 9.8434C4.20015 9.82947 2.93528 9.47889 1.99498 9.17922C0.84166 8.81167 -0.0749729 8.61734 0.00484519 7.99312C0.0464194 7.66799 0.503103 7.33548 1.3749 6.99559Z" fill="#474747" />
+										</svg>
+									</a>
+									<a href="#" class="contacts__item-social">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M17 2.875C15.125 1 12.625 0 10 0C4.5 0 0 4.5 0 10C0 11.75 0.500008 13.5 1.37501 15L0 20L5.25002 18.625C6.75002 19.375 8.375 19.875 10 19.875C15.5 19.875 20 15.375 20 9.875C20 7.25 18.875 4.75 17 2.875ZM10 18.25C8.5 18.25 7.00001 17.875 5.75001 17.125L5.49999 17L2.37499 17.875L3.25001 14.875L2.99999 14.5C2.12499 13.125 1.74999 11.625 1.74999 10.125C1.74999 5.625 5.5 1.875 10 1.875C12.25 1.875 14.25 2.75 15.875 4.25C17.5 5.875 18.25 7.875 18.25 10.125C18.25 14.5 14.625 18.25 10 18.25ZM14.5 12C14.25 11.875 13 11.25 12.75 11.25C12.5 11.125 12.375 11.125 12.25 11.375C12.125 11.625 11.625 12.125 11.5 12.375C11.375 12.5 11.25 12.5 11 12.5C10.75 12.375 10 12.125 9.00002 11.25C8.25002 10.625 7.75001 9.75 7.62501 9.5C7.50001 9.25 7.62502 9.125 7.75002 9C7.87502 8.875 8 8.75 8.125 8.625C8.25 8.5 8.25002 8.375 8.37502 8.25C8.50002 8.125 8.37502 8 8.37502 7.875C8.37502 7.75 7.87501 6.5 7.62501 6C7.50001 5.625 7.25002 5.625 7.12502 5.625C7.00002 5.625 6.87498 5.625 6.62498 5.625C6.49998 5.625 6.24998 5.625 5.99998 5.875C5.74998 6.125 5.12501 6.75 5.12501 8C5.12501 9.25 5.99999 10.375 6.12499 10.625C6.24999 10.75 7.87498 13.375 10.375 14.375C12.5 15.25 12.875 15 13.375 15C13.875 15 14.875 14.375 15 13.875C15.25 13.25 15.25 12.75 15.125 12.75C15 12.125 14.75 12.125 14.5 12Z" fill="#474747" />
+										</svg>
+									</a>
+									<a href="#" class="contacts__item-social">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M10.4004 0C14.9268 1.15553e-09 17.1867 7.59688e-05 18.6 1.40004C19.9999 2.81999 20 5.07987 20 9.59961V10.4004C20 14.9268 19.9999 17.1867 18.6 18.6C17.18 19.9999 14.9201 20 10.4004 20H9.59961C5.0732 20 2.81333 19.9999 1.40004 18.6C7.61856e-05 17.18 1.15895e-09 14.9201 0 10.4004V9.59961C1.1581e-09 5.0732 7.59688e-05 2.81333 1.40004 1.40004C2.81999 7.60772e-05 5.07987 1.16152e-09 9.59961 0H10.4004ZM14.0732 6.07955C13.6065 7.73286 12.2197 9.23323 10.9064 9.37322V6.08665H8.75355V11.8466C7.42027 11.5133 5.74018 9.89967 5.66673 6.08665H3.37358C3.48038 11.2864 6.08022 14.4061 10.6401 14.4061H10.9064V11.4329C12.5798 11.5995 13.847 12.8261 14.3537 14.4061H16.7196C16.4769 13.5084 16.0467 12.6724 15.4572 11.9531C14.8677 11.2338 14.1325 10.647 13.2999 10.2326C14.0459 9.77828 14.6903 9.17513 15.1926 8.46058C15.6951 7.74597 16.0448 6.93537 16.2198 6.07955H14.0732Z" fill="#474747" />
+										</svg>
+									</a>
+								</div>
+							</div>
+							<img class="contacts__background-item" src="img/item-background.webp" alt="фон">
+						</div>
+						<div class="contacts__item">
+							<div class="contacts__image">
+								<img src="img/contacts-image2.webp" alt="жених">
+							</div>
+							<div class="contacts__box">
+								<div class="contacts__caption">жених</div>
+								<div class="contacts__links">
+									<a href="tel:+79999999999" class="contacts__link text">+7 999 999-99-99</a>
+									<a href="mailto:pochta@gmail.com" class="contacts__link text">pochta@gmail.com</a>
+								</div>
+								<div class="contacts__social">
+									<a href="#" class="contacts__item-social">
+										<svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.3749 6.99559C6.74359 4.70235 10.3236 3.19051 12.1148 2.46006C17.2292 0.374492 18.2919 0.0122064 18.9846 0.000115977C19.1369 -0.00238758 19.4776 0.0346283 19.6982 0.210162C19.8845 0.358379 19.9358 0.558599 19.9603 0.699125C19.9848 0.839652 20.0154 1.15977 19.9911 1.40991C19.714 4.2649 18.5147 11.1932 17.9046 14.3908C17.6465 15.7439 17.1382 16.1976 16.6461 16.2419C15.5766 16.3384 14.7645 15.549 13.7287 14.8833C12.1078 13.8416 11.1921 13.1932 9.61879 12.1767C7.80053 11.002 8.97923 10.3563 10.0154 9.30114C10.2866 9.02499 14.9987 4.82295 15.0899 4.44176C15.1013 4.39409 15.1119 4.21638 15.0042 4.12255C14.8965 4.02871 14.7376 4.0608 14.6229 4.08632C14.4604 4.12249 11.871 5.80043 6.85486 9.12014C6.11988 9.61494 5.45416 9.85603 4.8577 9.8434C4.20015 9.82947 2.93528 9.47889 1.99498 9.17922C0.84166 8.81167 -0.0749729 8.61734 0.00484519 7.99312C0.0464194 7.66799 0.503103 7.33548 1.3749 6.99559Z" fill="#474747" />
+										</svg>
+									</a>
+									<a href="#" class="contacts__item-social">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M17 2.875C15.125 1 12.625 0 10 0C4.5 0 0 4.5 0 10C0 11.75 0.500008 13.5 1.37501 15L0 20L5.25002 18.625C6.75002 19.375 8.375 19.875 10 19.875C15.5 19.875 20 15.375 20 9.875C20 7.25 18.875 4.75 17 2.875ZM10 18.25C8.5 18.25 7.00001 17.875 5.75001 17.125L5.49999 17L2.37499 17.875L3.25001 14.875L2.99999 14.5C2.12499 13.125 1.74999 11.625 1.74999 10.125C1.74999 5.625 5.5 1.875 10 1.875C12.25 1.875 14.25 2.75 15.875 4.25C17.5 5.875 18.25 7.875 18.25 10.125C18.25 14.5 14.625 18.25 10 18.25ZM14.5 12C14.25 11.875 13 11.25 12.75 11.25C12.5 11.125 12.375 11.125 12.25 11.375C12.125 11.625 11.625 12.125 11.5 12.375C11.375 12.5 11.25 12.5 11 12.5C10.75 12.375 10 12.125 9.00002 11.25C8.25002 10.625 7.75001 9.75 7.62501 9.5C7.50001 9.25 7.62502 9.125 7.75002 9C7.87502 8.875 8 8.75 8.125 8.625C8.25 8.5 8.25002 8.375 8.37502 8.25C8.50002 8.125 8.37502 8 8.37502 7.875C8.37502 7.75 7.87501 6.5 7.62501 6C7.50001 5.625 7.25002 5.625 7.12502 5.625C7.00002 5.625 6.87498 5.625 6.62498 5.625C6.49998 5.625 6.24998 5.625 5.99998 5.875C5.74998 6.125 5.12501 6.75 5.12501 8C5.12501 9.25 5.99999 10.375 6.12499 10.625C6.24999 10.75 7.87498 13.375 10.375 14.375C12.5 15.25 12.875 15 13.375 15C13.875 15 14.875 14.375 15 13.875C15.25 13.25 15.25 12.75 15.125 12.75C15 12.125 14.75 12.125 14.5 12Z" fill="#474747" />
+										</svg>
+									</a>
+								</div>
+							</div>
+							<img class="contacts__background-item" src="img/item-background.webp" alt="фон">
+						</div>
+						<div class="contacts__item">
+							<div class="contacts__image">
+								<img src="img/contacts-image3.webp" alt="Ведущая">
+							</div>
+							<div class="contacts__box">
+								<div class="contacts__caption">Ведущая</div>
+								<div class="contacts__links">
+									<a href="tel:+79999999999" class="contacts__link text">+7 999 999-99-99</a>
+									<a href="mailto:pochta@gmail.com" class="contacts__link text">pochta@gmail.com</a>
+								</div>
+								<div class="contacts__social">
+									<a href="#" class="contacts__item-social">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M17 2.875C15.125 1 12.625 0 10 0C4.5 0 0 4.5 0 10C0 11.75 0.500008 13.5 1.37501 15L0 20L5.25002 18.625C6.75002 19.375 8.375 19.875 10 19.875C15.5 19.875 20 15.375 20 9.875C20 7.25 18.875 4.75 17 2.875ZM10 18.25C8.5 18.25 7.00001 17.875 5.75001 17.125L5.49999 17L2.37499 17.875L3.25001 14.875L2.99999 14.5C2.12499 13.125 1.74999 11.625 1.74999 10.125C1.74999 5.625 5.5 1.875 10 1.875C12.25 1.875 14.25 2.75 15.875 4.25C17.5 5.875 18.25 7.875 18.25 10.125C18.25 14.5 14.625 18.25 10 18.25ZM14.5 12C14.25 11.875 13 11.25 12.75 11.25C12.5 11.125 12.375 11.125 12.25 11.375C12.125 11.625 11.625 12.125 11.5 12.375C11.375 12.5 11.25 12.5 11 12.5C10.75 12.375 10 12.125 9.00002 11.25C8.25002 10.625 7.75001 9.75 7.62501 9.5C7.50001 9.25 7.62502 9.125 7.75002 9C7.87502 8.875 8 8.75 8.125 8.625C8.25 8.5 8.25002 8.375 8.37502 8.25C8.50002 8.125 8.37502 8 8.37502 7.875C8.37502 7.75 7.87501 6.5 7.62501 6C7.50001 5.625 7.25002 5.625 7.12502 5.625C7.00002 5.625 6.87498 5.625 6.62498 5.625C6.49998 5.625 6.24998 5.625 5.99998 5.875C5.74998 6.125 5.12501 6.75 5.12501 8C5.12501 9.25 5.99999 10.375 6.12499 10.625C6.24999 10.75 7.87498 13.375 10.375 14.375C12.5 15.25 12.875 15 13.375 15C13.875 15 14.875 14.375 15 13.875C15.25 13.25 15.25 12.75 15.125 12.75C15 12.125 14.75 12.125 14.5 12Z" fill="#474747" />
+										</svg>
+									</a>
+								</div>
+							</div>
+							<img class="contacts__background-item" src="img/item-background.webp" alt="фон">
+						</div>
+					</div>
+					<div class="contacts__block contacts__block_mobile">
+						<div class="contacts__inner">
+							<div class="contacts__heading">Наша <br> общая группа</div>
+							<div class="contacts__text text">Чтобы мы могли остаться на связи, делиться радостью,
+								фотографиями и просто болтать — мы создали чат</div>
+							<a href="" class="contacts__button">Вступить в группу</a>
+						</div>
+						<div class="contacts__decor">
+							<img src="img/block-mask.webp" alt="фон">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="thanks">
+				<div class="thanks__container">
+					<h2 class="thanks__title title">Будем рады видеть Вас на нашем празднике!</h2>
+					<div class="thanks__block">
+						<div class="thanks__row">
+							<div class="thanks__value">Мария</div>
+							<div class="thanks__value">&</div>
+							<div class="thanks__value">Дмитрий</div>
+						</div>
+						<div class="thanks__row">
+							<div class="thanks__date">4 октября</div>
+							<div class="thanks__year">2025</div>
+						</div>
+					</div>
+				</div>
+				<div class="thanks__image">
+					<picture>
+						<source srcset="img/thanks-mobile.webp" media="(max-width: 480px)">
+						<img src="img/thanks-image.webp" alt="Мария и Дмитрий">
+					</picture>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<svg width="194" height="193" viewBox="0 0 194 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_g_6020_338)">
+<path d="M145.137 31.0036C169.706 36.5577 184.954 62.6172 178.889 89.4439C176.526 99.8956 172.789 109.201 168.067 117.544L168.063 117.552C156.639 138.043 139.465 152.635 122.426 162.456C105.376 172.283 88.547 177.284 77.9341 178.649L77.9248 178.649L77.9166 178.651C76.617 178.834 74.8782 178.709 73.1233 178.312C71.3686 177.915 69.7458 177.28 68.6514 176.556L68.6444 176.551L68.6365 176.547L67.782 175.986C58.8297 170.011 46.2523 158.49 35.4363 142.791C24.453 126.849 15.3399 106.677 13.628 83.7186L13.5522 82.6232L13.5513 82.6139L13.4921 81.7155C12.9183 72.4242 13.5801 62.7162 15.869 52.5911C21.9336 25.7644 46.908 8.79773 71.4769 14.3519C85.9719 17.6288 97.277 28.1366 102.774 41.6524L103.573 43.6161L105.14 42.1871C115.916 32.3502 130.642 27.7269 145.137 31.0036Z" stroke="url(#paint0_radial_6020_338)" stroke-width="2.95484"/>
+</g>
+<defs>
+<filter id="filter0_g_6020_338" x="-1.14441e-05" y="-1.14441e-05" width="193.515" height="192.03" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.040611382573843002 0.040611382573843002" numOctaves="3" seed="5228" />
+<feDisplacementMap in="shape" scale="23.638694763183594" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect1_texture_6020_338">
+<feMergeNode in="displacedImage"/>
+</feMerge>
+</filter>
+<radialGradient id="paint0_radial_6020_338" cx="0" cy="0" r="1" gradientTransform="matrix(-33.124 148.823 -234.403 -52.7744 109.744 27.207)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#474747"/>
+<stop offset="1" stop-color="#474747" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
