@@ -1104,6 +1104,9 @@ html {
 }
 
 .contacts__items {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
   display: -ms-grid;
   display: grid;
   gap: 0.9375rem;
