@@ -2211,7 +2211,7 @@ justify-content: flex-end;
 
 @media (max-width: 29.99875rem) {
   .hero {
-    padding-bottom: 20vw;
+    padding-bottom: 25vw;
     aspect-ratio: 360/711;
   }
 
