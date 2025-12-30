@@ -1,7 +1,8 @@
-(() => {
-    "use strict";
-    let documentBody = document.documentElement;
+document.addEventListener("DOMContentLoaded", function (event) {
+
+	let documentBody = document.documentElement;
     const play = document.querySelector(".hero__button");
+    
     play?.addEventListener("click", (function(e) {
         const audio = document.querySelector(".audio");
         if (audio) if (audio.paused) {
@@ -12,4 +13,5 @@
             audio.pause();
         }
     }));
-})();
+
+});
